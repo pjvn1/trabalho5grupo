@@ -1,0 +1,15 @@
+<mat-toolbar class="mat-elevation-z3" style="background-color: #4169E1;">
+  <button mat-icon-button (click)="toggleCollapsed()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <h1>Arquivos</h1>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav opened mode="side" [style.width]="sidenavWidth">
+    <app-custom-sidenav [collapsed]="collapsed"></app-custom-sidenav>
+  </mat-sidenav>
+  <mat-sidenav-content class="content" [style.margin-left]="sidenavWidth">
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

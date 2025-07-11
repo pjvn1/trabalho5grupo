@@ -1,0 +1,28 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.mat-toolbar{
+  padding-top: 5px;
+  margin: 0 auto;
+  max-width: 1348px;
+  background-color: #4169E1;
+  color:#fff;
+}
+.main-body {
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1348px;
+  mat-form-field {
+    width: 100%;
+  }
+}
+.mat-toolbar {
+  padding-top: 5px;
+  background-color: #4169E1;
+  color: #fff;
+}
+
+.action {
+  display: flex;
+  gap: 5px;
+}
